@@ -1,0 +1,16 @@
+GetCurrentProcessID
+SHGetSpecialFolderPathW
+CreateProcessW - "C:\Windows\SysWOW64\notepad.exe"
+VirtualAllocEx
+WriteProcessMemory - encrypted data
+GetThreadContext
+SetThreadContext
+CloseHandle
+
+
+xmmword keeping data (hard coded) that gets decrypted - Holding APIs names
+
+004037C0: executeAPI(<DLL_name>\0, <API_name>\0, third_unknown_var, ... ) - the APIs arguments are in a reverse order - first argument pushed first, etc.
+
+
+Password: the number 9172 (23d4h)
