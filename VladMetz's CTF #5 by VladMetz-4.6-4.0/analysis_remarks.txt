@@ -1,0 +1,19 @@
+ecx = pass[8] * pass[10]
+eax = (pass[8] * pass[10]) + (pass[9] * (pass[11] + pass[7]))
+
+
+(pass[8] * pass[10]) + (pass[9] * (pass[11] + pass[7])) == 9AF2h
+
+pass[8] * pass[10] = ? 
+pass[9] * (pass[11] + pass[7]) = 4D79
+
+
+000000zb0zez
+
+xmm0 = pass[0]
+xmm1 = pass[6]
+xmm2 = (pass[6] * pass[2]) - (pass[5] / 2)^2
+xmm3 = pass[5] / 2
+xmm4 = pass[4] / 2
+xmm5 = pass[3] * 0.5
+
